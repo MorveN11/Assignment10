@@ -1,8 +1,10 @@
+import Items.Consumables.Trap.Types.PufferFish;
+import Items.Player;
+
 public class App {
     public static void main(String[] args) {
         Player player = new Player();
-        System.out.println("Hello World");
-        System.out.println("Hello World2");
-        System.out.println("Que fue mano");
+        PufferFish eat = new PufferFish(player);
+        System.out.println(eat.test);
     }
 }
