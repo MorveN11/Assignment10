@@ -6,5 +6,6 @@ public class App {
         Player player = new Player();
         TrollPotion potion = new TrollPotion(player);
         potion.trolled();
+
     }
 }
