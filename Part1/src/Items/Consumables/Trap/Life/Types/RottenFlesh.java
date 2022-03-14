@@ -11,6 +11,6 @@ public class RottenFlesh extends LifeTrapConsumable {
         setTrapTypeConsumable("RottenFlesh");
     }
     public void infection() {
-
+        //Nos quita vida de manera progresiva
     }
 }

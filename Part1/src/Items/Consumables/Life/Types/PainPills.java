@@ -11,6 +11,6 @@ public class PainPills extends LifeConsumable {
         setLifeTypeConsumable("PainPills");
     }
     public void painRelief() {
-
+        //dar al player 300 de vida no de forma de permamente, por cierto tiempo
     }
 }

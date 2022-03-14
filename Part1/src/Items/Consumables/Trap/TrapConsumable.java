@@ -9,7 +9,7 @@ public abstract class TrapConsumable extends Consumables {
     }
 
     public void CheckTypeTrapConsumable() {
-
+        //Nos pregunta que tipo de trapConsumable instanciamos [lifetrapconsumable, manatrapconsumable]
     }
 
     public void setTrapTypeConsumable(String trapTypeConsumable) {

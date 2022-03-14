@@ -8,6 +8,7 @@ public abstract class LifeConsumable extends Consumables {
         setTypeConsumable("Life");
     }
     public void checkTypeLifeConsumable() {
+        //pregunta a los lifecosumable instanciamos [Cheese, healingSalve, PainPills]
 
     }
 

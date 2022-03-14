@@ -11,6 +11,6 @@ public class MushRoom extends ManaTrapConsumable {
         setTrapTypeConsumable("MushRoom");
     }
     public void silenceMana() {
-
+        //Silencea al jugador por un tiempo determinado
     }
 }

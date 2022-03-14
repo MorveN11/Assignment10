@@ -11,6 +11,6 @@ public class EnchantedMango extends ManaConsumable {
         setManaTypeConsumable("EnchantedMango");
     }
     public void momentaryRestoreMana() {
-
+        //Nos 300 de mana de manera no permanente
     }
 }

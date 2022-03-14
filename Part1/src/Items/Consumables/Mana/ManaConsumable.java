@@ -8,7 +8,7 @@ public abstract class ManaConsumable extends Consumables {
         setTypeConsumable("Mana");
     }
     public void checkTypeManaConsumable() {
-
+        //Chekea que tipo de manaConsumable se instancia [Clarity, EnchantedMango, ManaFish]
     }
 
     public void setManaTypeConsumable(String manaTypeConsumable) {

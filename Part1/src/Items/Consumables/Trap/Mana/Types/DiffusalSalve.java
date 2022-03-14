@@ -11,6 +11,6 @@ public class DiffusalSalve extends ManaTrapConsumable {
         setTrapTypeConsumable("DiffusalSalve");
     }
     public void dumb() {
-
+        //Te quita toda la mana
     }
 }

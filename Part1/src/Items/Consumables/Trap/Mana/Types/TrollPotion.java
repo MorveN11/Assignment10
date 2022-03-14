@@ -13,6 +13,6 @@ public class TrollPotion extends ManaTrapConsumable {
     }
 
     public void trolled() {
-
+        //Quitamos de manera randomica un numero determinado de Mana
     }
 }

@@ -8,7 +8,7 @@ public abstract class ManaTrapConsumable extends TrapConsumable {
         setTrapTypeConsumable("Mana");
     }
     public void checkTypeManaTrapConsumable() {
-
+        //Nos pregunta que tipo de ManaTrapCOnsumable estamos instanciando [DiffusalSalve, MushRoom, TrollPotion]
     }
     public void setManaTrapTypeConsumable(String manaTrapTypeConsumable) {
         this.manaTrapTypeConsumable = manaTrapTypeConsumable;

@@ -11,6 +11,6 @@ public class Clarity extends ManaConsumable {
         setManaTypeConsumable("Clarity");
     }
     public void progressiveRestoringMana() {
-
+        //nos cura mana de forma progresiva
     }
 }

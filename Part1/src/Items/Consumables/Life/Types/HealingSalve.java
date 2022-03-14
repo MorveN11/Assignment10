@@ -11,6 +11,6 @@ public class HealingSalve extends LifeConsumable {
         setLifeTypeConsumable("HealingSalve");
     }
     public void progressiveHealingLife() {
-
+        //curar 200 de vida de forma progresiva al jugador
     }
 }

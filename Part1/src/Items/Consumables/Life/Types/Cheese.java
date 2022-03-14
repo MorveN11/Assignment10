@@ -11,6 +11,6 @@ public class Cheese extends LifeConsumable {
         setLifeTypeConsumable("Cheese");
     }
     public void healingLife() {
-
+        //Nos restaura toda la vida de manera instantanea
     }
 }

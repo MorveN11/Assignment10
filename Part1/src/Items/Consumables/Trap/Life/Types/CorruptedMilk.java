@@ -11,6 +11,6 @@ public class CorruptedMilk extends LifeTrapConsumable {
         setLifeTrapTypeConsumable("CorruptedMilk");
     }
     public void lifeDrain() {
-
+        //Nos quita vida de forma progresiva
     }
 }

@@ -11,6 +11,6 @@ public class PufferFish extends LifeTrapConsumable {
         setTrapTypeConsumable("PufferFish");
     }
     public void poison() {
-
+        //Nos quita vida de forma progresiva
     }
 }
