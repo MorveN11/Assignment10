@@ -9,11 +9,11 @@ public class MachineGun extends RangeWeapon {
         this.player = (Player) player;
         setBullets(30);
     }
-    public void setMode() {
+    public void setMode(){
 
     }
     public void headShoot() {
-        setDamage(20);
+        setDamage(40);
         shoot(this.player, getDamage());
     }
     public void bodyShoot() {
