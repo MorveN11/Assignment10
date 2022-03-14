@@ -1,9 +1,16 @@
 package Items.Consumables.Life.Types;
 
+import Items.Player;
 import Items.Consumables.Life.LifeConsumable;
 
 public class HealingSalve extends LifeConsumable {
-    public HealingSalve() {
+    Object player;
+    public HealingSalve(Object player) {
+        this.player = (Player) player;
+        setCuration(200);
+        setLifeTypeConsumable("HealingSalve");
+    }
+    public void progressiveHealingLife() {
 
     }
 }

@@ -6,4 +6,10 @@ public abstract class Hammer extends MeleeWeapon {
     public Hammer() {
 
     }
+    public void amplifyHit() {
+
+    }
+    public void smashThings() {
+
+    }
 }

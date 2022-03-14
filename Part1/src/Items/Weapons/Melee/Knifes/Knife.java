@@ -6,4 +6,10 @@ public abstract class Knife extends MeleeWeapon {
     public Knife() {
 
     }
+    public void stab() {
+
+    }
+    public void lacerate() {
+
+    }
 }

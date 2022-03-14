@@ -1,9 +1,18 @@
 package Items.Weapons.Melee.Knifes.Types;
 
+import Items.Player;
 import Items.Weapons.Melee.Knifes.Knife;
 
 public class Bloodthorn extends Knife {
-    public Bloodthorn() {
+    Object player;
+    public Bloodthorn(Object player) {
+        this.player = (Player) player;
+        setDamage(50);
+    }
+    public void silence() {
+
+    }
+    public void amplifyDamage() {
 
     }
 }
