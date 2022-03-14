@@ -11,7 +11,7 @@ public class HealingSalve extends LifeConsumable {
 
     public HealingSalve(Object player) {
         this.player = player;
-        setCuration(200);
+        setCuration(250);
         setLifeTypeConsumable("HealingSalve");
     }
 
