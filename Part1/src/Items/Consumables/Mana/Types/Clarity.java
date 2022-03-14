@@ -11,6 +11,15 @@ public class Clarity extends ManaConsumable {
         setManaTypeConsumable("Clarity");
     }
     public void progressiveRestoringMana() {
+        if(((Player)player).getMana() + getCuration() > ((Player)player).getMaxMana()) {
+            setCuration(((Player)player).getMaxMana() - ((Player)player).getMana());
+        }
+
+        for (int i = 0; i < getCuration(); i++)
+        {
+            ((Player)player).setMana(((Player)player).getMana() + 1);
+            System.out.println(((Player)player).getMana());
         //nos cura mana de forma progresiva
+    }
     }
 }

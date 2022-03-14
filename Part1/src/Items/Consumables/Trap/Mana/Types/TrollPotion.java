@@ -12,7 +12,11 @@ public class TrollPotion extends ManaTrapConsumable {
         setTrapTypeConsumable("TrollPotion");
     }
 
-    public void trolled() {
-        //Quitamos de manera randomica un numero determinado de Mana
+    public void trolled() { //Quitamos de manera randomica un numero determinado de Mana
+        if(((Player)player).getMana() - getHurt() <= ((Player)player).getMana()) {
+            setHurt(((Player)player).getMana() - 1);
+        }
+        ((Player)player).setMana(((Player)player).getMana() - getHurt());
+
     }
 }
