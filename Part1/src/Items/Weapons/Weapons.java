@@ -13,11 +13,12 @@ public abstract class Weapons extends Item {
     public int getDamage() {
         return this.damage;
     }
-    public void upgradeWeapon() {
+    public void upgradeWeapon(){
+        damage += 20;
 
     }
     @Override
-    public void useItem() {
+    public void useItem(){
 
     }
 
