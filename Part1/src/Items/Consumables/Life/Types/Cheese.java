@@ -8,7 +8,7 @@ public class Cheese extends LifeConsumable {
 
     public Cheese(Object player) {
         this.player = player;
-        setCuration(((Player)player).getLife() - ((Player) player).getMaxLife());
+        setCuration(((Player)player).getMaxLife() - ((Player) player).getLife());
         setLifeTypeConsumable("Cheese");
     }
 
