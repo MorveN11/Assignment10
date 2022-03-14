@@ -8,7 +8,7 @@ public class ManaFish extends ManaConsumable {
 
     public ManaFish(Object player) {
         this.player = player;
-        setCuration(((Player) player).getMana() - ((Player)player).getMaxMana()); //getMaxMana nos da el valor maximo de mana que podamos tener.
+        setCuration(((Player) player).getMaxMana() - ((Player)player).getMana()); //getMaxMana nos da el valor maximo de mana que podamos tener.
         setManaTypeConsumable("ManaFish");
     }
 
