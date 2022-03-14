@@ -13,12 +13,15 @@ public class Shotgun extends RangeWeapon {
 
     }
     public void headShoot() {
-
+        setDamage(1000);
+        shoot(this.player, getDamage());
     }
     public void bodyShoot() {
-
+        setDamage(500);
+        shoot(this.player, getDamage());
     }
     public void armShoot() {
-
+        setDamage(125);
+        shoot(this.player, getDamage());
     }
 }
