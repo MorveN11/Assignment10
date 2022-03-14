@@ -16,7 +16,7 @@ public class TrollPotion extends ManaTrapConsumable {
         if(((Player)player).getMana() - getHurt() <= ((Player)player).getMana()) {
             setHurt(((Player)player).getMana() - 1);
         }
-        ((Player)player).setMana(((Player)player).getMana() - getHurt());
 
+        ((Player)player).setMana(((Player)player).getMana() - getHurt());
     }
 }
