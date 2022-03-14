@@ -13,10 +13,8 @@ public class TrollPotion extends ManaTrapConsumable {
     }
 
     public void trolled() { //Quitamos de manera randomica un numero determinado de Mana
-        if(((Player)player).getMana() - getHurt() <= ((Player)player).getMana()) {
-            setHurt(((Player)player).getMana() - 1);
-        }
-
-        ((Player)player).setMana(((Player)player).getMana() - getHurt());
+        System.out.println(getHurt());
+        ((Player) player).setMana(Math.max(((Player) player).getMana() - getHurt(), 1));
+        System.out.println(((Player) player).getMana());
     }
 }
