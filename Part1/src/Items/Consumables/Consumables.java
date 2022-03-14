@@ -14,7 +14,7 @@ public abstract class Consumables extends Item {
     public String getTypeConsumable() { return this.typeConsumable; }
     public void setAmount(int amount) { this.amount = amount; }
     public int getAmount() { return this.amount; }
-    public void setCuration(int mount) { this.curation = mount; }
+    public void setCuration(int curation) { this.curation = curation; }
     public int getCuration() { return this.curation; }
     public void setHurt(int hurt) { this.hurt = hurt; }
     public int getHurt() { return this.hurt; }
