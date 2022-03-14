@@ -7,7 +7,7 @@ public class DiffusalSalve extends ManaTrapConsumable {
     Object player;
 
     public DiffusalSalve (Object player) {
-        this.player = (Player) player;
+        this.player = player;
         setHurt(((Player) player).getMana() - 1);
         setTrapTypeConsumable("DiffusalSalve");
     }

@@ -9,7 +9,7 @@ import java.util.TimerTask;
 public class EnchantedMango extends ManaConsumable {
     Object player;
     public EnchantedMango(Object player) {
-        this.player = (Player) player;
+        this.player = player;
         setCuration(300);
         setManaTypeConsumable("EnchantedMango");
     }

@@ -10,7 +10,7 @@ public class RottenFlesh extends LifeTrapConsumable {
     Object player;
 
     public RottenFlesh(Object player) {
-        this.player = (Player) player;
+        this.player = player;
         setHurt(650);
         setTrapTypeConsumable("RottenFlesh");
     }

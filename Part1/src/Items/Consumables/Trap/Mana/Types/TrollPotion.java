@@ -6,7 +6,7 @@ import Items.Consumables.Trap.Mana.ManaTrapConsumable;
 public class TrollPotion extends ManaTrapConsumable {
     Object player;
     public TrollPotion (Object player) {
-        this.player = (Player) player;
+        this.player = player;
         int random = (int) (Math.random() * 1000);
         setHurt(random);
         setTrapTypeConsumable("TrollPotion");

@@ -9,7 +9,7 @@ import java.util.TimerTask;
 public class MushRoom extends ManaTrapConsumable {
     Object player;
     public MushRoom (Object player) {
-        this.player = (Player) player;
+        this.player = player;
         setTrapTypeConsumable("MushRoom");
     }
     public void silenceMana() {

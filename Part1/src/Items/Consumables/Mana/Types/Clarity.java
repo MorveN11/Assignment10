@@ -9,7 +9,7 @@ import java.util.TimerTask;
 public class Clarity extends ManaConsumable {
     Object player;
     public Clarity(Object player) {
-        this.player = (Player) player;
+        this.player = player;
         setCuration(250);
         setManaTypeConsumable("Clarity");
     }

@@ -9,7 +9,7 @@ import java.util.TimerTask;
 public class CorruptedMilk extends LifeTrapConsumable {
     Object player;
     public CorruptedMilk(Object player) {
-        this.player = (Player) player;
+        this.player = player;
         setHurt(500);
         setLifeTrapTypeConsumable("CorruptedMilk");
     }
