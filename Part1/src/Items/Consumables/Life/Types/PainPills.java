@@ -10,7 +10,7 @@ public class PainPills extends LifeConsumable {
     Object player;
 
     public PainPills(Object player) {
-        this.player = (Player) player;
+        this.player = player;
         setCuration(300);
         setLifeTypeConsumable("PainPills");
     }

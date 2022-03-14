@@ -9,7 +9,7 @@ import java.util.TimerTask;
 public class PufferFish extends LifeTrapConsumable {
     Object player;
     public PufferFish(Object player) {
-        this.player = (Player) player;
+        this.player = player;
         setHurt(600);
         setTrapTypeConsumable("PufferFish");
     }
